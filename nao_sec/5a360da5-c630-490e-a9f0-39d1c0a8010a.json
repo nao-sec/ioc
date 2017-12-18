@@ -1,1 +1,314 @@
-{"Event": {"Object": [], "Galaxy": [], "orgc_id": "2", "publish_timestamp": "0", "timestamp": "1513500510", "org_id": "2", "date": "2017-09-08", "attribute_count": "12", "Attribute": [{"event_id": "13", "ShadowAttribute": [], "value": "https://www.reverse.it/sample/41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce?environmentId=100", "comment": "", "disable_correlation": false, "deleted": false, "id": "441", "sharing_group_id": "0", "timestamp": "1513492104", "category": "External analysis", "object_relation": null, "to_ids": false, "type": "link", "object_id": "0", "distribution": "3", "uuid": "5a360e88-ddf0-4bc5-adef-4084c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "https://zerophagemalware.com/2017/09/11/rig-ek-via-rulan-drops-quant-loader-leads-to-ursnif/", "comment": "", "disable_correlation": false, "deleted": false, "id": "442", "sharing_group_id": "0", "timestamp": "1513492231", "category": "External analysis", "object_relation": null, "to_ids": false, "type": "link", "object_id": "0", "distribution": "3", "uuid": "5a360f07-6244-428f-8f74-40a7c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "https://www.virustotal.com/#/file/41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce/detection", "comment": "", "disable_correlation": false, "deleted": false, "id": "443", "sharing_group_id": "0", "timestamp": "1513492279", "category": "External analysis", "object_relation": null, "to_ids": false, "type": "link", "object_id": "0", "distribution": "3", "uuid": "5a360f37-487c-4acd-9dea-4084c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "cmd /C 'echo -------- >> %TEMP%\\[A-Z0-9]{4}.bi1", "comment": "Runs shell commands", "disable_correlation": false, "deleted": false, "id": "444", "sharing_group_id": "0", "timestamp": "1513495241", "category": "Other", "object_relation": null, "to_ids": false, "type": "other", "object_id": "0", "distribution": "3", "uuid": "5a361ac9-067c-4d16-b27c-4081c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "cmd /C 'nslookup myip.opendns.com resolver1.opendns.com >  %TEMP%\\[A-Z0-9]{4}.bi1", "comment": "Runs shell commands", "disable_correlation": false, "deleted": false, "id": "445", "sharing_group_id": "0", "timestamp": "1513495320", "category": "Other", "object_relation": null, "to_ids": false, "type": "other", "object_id": "0", "distribution": "3", "uuid": "5a361b18-82fc-492a-8342-4083c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "%TEMP%\\[A-Z0-9]{4}\\[A-Z0-9]{4}.bat", "comment": "", "disable_correlation": false, "deleted": false, "id": "446", "sharing_group_id": "0", "timestamp": "1513495504", "category": "Artifacts dropped", "object_relation": null, "to_ids": false, "type": "filename", "object_id": "0", "distribution": "3", "uuid": "5a361ba9-ba34-4a2e-a3da-4085c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": ":[0-9]{8}\r\nif not exist %1 goto [0-9]{10}\r\ncmd /C \"%1 %2\"\r\nif errorlevel 1 goto [0-9]{8}\r\n:[0-9]{10}\r\ndel %0", "comment": "Contents of .bat", "disable_correlation": false, "deleted": false, "id": "447", "sharing_group_id": "0", "timestamp": "1513495612", "category": "Artifacts dropped", "object_relation": null, "to_ids": false, "type": "text", "object_id": "0", "distribution": "3", "uuid": "5a361c3c-b530-4a9e-a28f-4084c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "%WINDIR%\\system32\\cmd.exe /c \"%TEMP%\\[0-9]{4}\\[0-9]{4}.bat\" \"%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe\" \"{FILENAME}~1.EXE\"", "comment": "Runs shell commands", "disable_correlation": false, "deleted": false, "id": "448", "sharing_group_id": "0", "timestamp": "1513499999", "category": "Other", "object_relation": null, "to_ids": false, "type": "other", "object_id": "0", "distribution": "3", "uuid": "5a361e2d-59c4-4034-b9c8-4085c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "diarop.at", "comment": "", "disable_correlation": false, "deleted": false, "id": "449", "sharing_group_id": "0", "timestamp": "1513499206", "category": "Network activity", "object_relation": null, "to_ids": false, "type": "domain", "object_id": "0", "distribution": "3", "uuid": "5a362a46-008c-4407-89fb-4082c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe", "comment": "", "disable_correlation": false, "deleted": false, "id": "457", "sharing_group_id": "0", "timestamp": "1513500085", "category": "Payload installation", "object_relation": null, "to_ids": false, "type": "filename", "object_id": "0", "distribution": "3", "uuid": "5a362db5-8544-4dfc-b903-4083c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run|%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe", "comment": "cmutsitf", "disable_correlation": false, "deleted": false, "id": "461", "sharing_group_id": "0", "timestamp": "1513500461", "category": "Persistence mechanism", "object_relation": null, "to_ids": false, "type": "regkey|value", "object_id": "0", "distribution": "3", "uuid": "5a362f2d-3574-4ceb-8bc7-4083c0a8010a"}, {"event_id": "13", "ShadowAttribute": [], "value": "41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce", "comment": "RigEK Drop", "disable_correlation": false, "deleted": false, "id": "462", "sharing_group_id": "0", "timestamp": "1513500510", "category": "Payload delivery", "object_relation": null, "to_ids": false, "type": "sha256", "object_id": "0", "distribution": "3", "uuid": "5a362f5e-dae8-4668-bd16-4082c0a8010a"}], "distribution": "3", "uuid": "5a360da5-c630-490e-a9f0-39d1c0a8010a", "info": "Rulan-QuantLoader>DreamBot", "Org": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "ShadowAttribute": [], "disable_correlation": false, "analysis": "2", "published": false, "sharing_group_id": "0", "id": "13", "event_creator_email": "tomori.nao.sec@gmail.com", "locked": false, "Orgc": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "threat_level_id": "1", "RelatedEvent": [{"Event": {"info": "Rulan-DreamBot", "Org": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "id": "14", "orgc_id": "2", "published": false, "Orgc": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "timestamp": "1513500586", "org_id": "2", "date": "2017-10-02", "threat_level_id": "1", "analysis": "2", "distribution": "3", "uuid": "5a362b0c-b4a8-4b9e-81f9-40a7c0a8010a"}}, {"Event": {"info": "Rulan-QuantLoader", "Org": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "id": "3", "orgc_id": "2", "published": false, "Orgc": {"id": "2", "name": "nao_sec", "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"}, "timestamp": "1513491841", "org_id": "2", "date": "2017-09-08", "threat_level_id": "1", "analysis": "2", "distribution": "3", "uuid": "5a224d39-3714-4c38-9951-1580c0a8010a"}}], "proposal_email_lock": false}}
+{
+  "Event": {
+    "Object": [],
+    "Galaxy": [],
+    "orgc_id": "2",
+    "publish_timestamp": "0",
+    "timestamp": "1513500510",
+    "org_id": "2",
+    "date": "2017-09-08",
+    "attribute_count": "12",
+    "Attribute": [
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "https://www.reverse.it/sample/41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce?environmentId=100",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "441",
+        "sharing_group_id": "0",
+        "timestamp": "1513492104",
+        "category": "External analysis",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "link",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a360e88-ddf0-4bc5-adef-4084c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "https://zerophagemalware.com/2017/09/11/rig-ek-via-rulan-drops-quant-loader-leads-to-ursnif/",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "442",
+        "sharing_group_id": "0",
+        "timestamp": "1513492231",
+        "category": "External analysis",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "link",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a360f07-6244-428f-8f74-40a7c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "https://www.virustotal.com/#/file/41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce/detection",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "443",
+        "sharing_group_id": "0",
+        "timestamp": "1513492279",
+        "category": "External analysis",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "link",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a360f37-487c-4acd-9dea-4084c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value": "cmd /C 'echo -------- >> %TEMP%\\[A-Z0-9]{4}.bi1",
+        "comment": "Runs shell commands",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "444",
+        "sharing_group_id": "0",
+        "timestamp": "1513495241",
+        "category": "Other",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "other",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a361ac9-067c-4d16-b27c-4081c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "cmd /C 'nslookup myip.opendns.com resolver1.opendns.com >  %TEMP%\\[A-Z0-9]{4}.bi1",
+        "comment": "Runs shell commands",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "445",
+        "sharing_group_id": "0",
+        "timestamp": "1513495320",
+        "category": "Other",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "other",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a361b18-82fc-492a-8342-4083c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value": "%TEMP%\\[A-Z0-9]{4}\\[A-Z0-9]{4}.bat",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "446",
+        "sharing_group_id": "0",
+        "timestamp": "1513495504",
+        "category": "Artifacts dropped",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "filename",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a361ba9-ba34-4a2e-a3da-4085c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          ":[0-9]{8}\r\nif not exist %1 goto [0-9]{10}\r\ncmd /C \"%1 %2\"\r\nif errorlevel 1 goto [0-9]{8}\r\n:[0-9]{10}\r\ndel %0",
+        "comment": "Contents of .bat",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "447",
+        "sharing_group_id": "0",
+        "timestamp": "1513495612",
+        "category": "Artifacts dropped",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "text",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a361c3c-b530-4a9e-a28f-4084c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "%WINDIR%\\system32\\cmd.exe /c \"%TEMP%\\[0-9]{4}\\[0-9]{4}.bat\" \"%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe\" \"{FILENAME}~1.EXE\"",
+        "comment": "Runs shell commands",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "448",
+        "sharing_group_id": "0",
+        "timestamp": "1513499999",
+        "category": "Other",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "other",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a361e2d-59c4-4034-b9c8-4085c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value": "diarop.at",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "449",
+        "sharing_group_id": "0",
+        "timestamp": "1513499206",
+        "category": "Network activity",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "domain",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a362a46-008c-4407-89fb-4082c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe",
+        "comment": "",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "457",
+        "sharing_group_id": "0",
+        "timestamp": "1513500085",
+        "category": "Payload installation",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "filename",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a362db5-8544-4dfc-b903-4083c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run|%APPDATA%\\MICROS~1\\[a-zA-Z0-1\\-_]{8}\\[a-zA-Z0-1\\-_]{8}.exe",
+        "comment": "cmutsitf",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "461",
+        "sharing_group_id": "0",
+        "timestamp": "1513500461",
+        "category": "Persistence mechanism",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "regkey|value",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a362f2d-3574-4ceb-8bc7-4083c0a8010a"
+      },
+      {
+        "event_id": "13",
+        "ShadowAttribute": [],
+        "value":
+          "41e17ea8101b4fac481168afed74955d58c230e8df3c590ecbf66e7ed42a11ce",
+        "comment": "RigEK Drop",
+        "disable_correlation": false,
+        "deleted": false,
+        "id": "462",
+        "sharing_group_id": "0",
+        "timestamp": "1513500510",
+        "category": "Payload delivery",
+        "object_relation": null,
+        "to_ids": false,
+        "type": "sha256",
+        "object_id": "0",
+        "distribution": "3",
+        "uuid": "5a362f5e-dae8-4668-bd16-4082c0a8010a"
+      }
+    ],
+    "distribution": "3",
+    "uuid": "5a360da5-c630-490e-a9f0-39d1c0a8010a",
+    "info": "Rulan-QuantLoader>DreamBot",
+    "Org": {
+      "id": "2",
+      "name": "nao_sec",
+      "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+    },
+    "ShadowAttribute": [],
+    "disable_correlation": false,
+    "analysis": "2",
+    "published": false,
+    "sharing_group_id": "0",
+    "id": "13",
+    "event_creator_email": "tomori.nao.sec@gmail.com",
+    "locked": false,
+    "Orgc": {
+      "id": "2",
+      "name": "nao_sec",
+      "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+    },
+    "threat_level_id": "1",
+    "RelatedEvent": [
+      {
+        "Event": {
+          "info": "Rulan-DreamBot",
+          "Org": {
+            "id": "2",
+            "name": "nao_sec",
+            "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+          },
+          "id": "14",
+          "orgc_id": "2",
+          "published": false,
+          "Orgc": {
+            "id": "2",
+            "name": "nao_sec",
+            "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+          },
+          "timestamp": "1513500586",
+          "org_id": "2",
+          "date": "2017-10-02",
+          "threat_level_id": "1",
+          "analysis": "2",
+          "distribution": "3",
+          "uuid": "5a362b0c-b4a8-4b9e-81f9-40a7c0a8010a"
+        }
+      },
+      {
+        "Event": {
+          "info": "Rulan-QuantLoader",
+          "Org": {
+            "id": "2",
+            "name": "nao_sec",
+            "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+          },
+          "id": "3",
+          "orgc_id": "2",
+          "published": false,
+          "Orgc": {
+            "id": "2",
+            "name": "nao_sec",
+            "uuid": "59ce3f5b-dde4-4b8d-b08c-5285c0a83832"
+          },
+          "timestamp": "1513491841",
+          "org_id": "2",
+          "date": "2017-09-08",
+          "threat_level_id": "1",
+          "analysis": "2",
+          "distribution": "3",
+          "uuid": "5a224d39-3714-4c38-9951-1580c0a8010a"
+        }
+      }
+    ],
+    "proposal_email_lock": false
+  }
+}

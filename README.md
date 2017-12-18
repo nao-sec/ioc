@@ -1,2 +1,2 @@
-# ioc
-malware ioc
+# IOCs
+misp format Malware IOCs
